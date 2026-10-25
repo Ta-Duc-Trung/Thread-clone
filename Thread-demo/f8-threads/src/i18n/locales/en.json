@@ -1,0 +1,286 @@
+{
+    "common": {
+        "cancel": "Cancel",
+        "close": "Close",
+        "copy": "Copy",
+        "copied": "Copied",
+        "retry": "Try again",
+        "back": "Back",
+        "clear": "Clear",
+        "save": "Save"
+    },
+    "nav": {
+        "main": "Main navigation",
+        "home": "Home",
+        "search": "Search",
+        "create": "Create",
+        "activity": "Activity",
+        "profile": "Profile",
+        "settings": "Settings"
+    },
+    "settings": {
+        "appearance": "Appearance",
+        "theme": {
+            "light": "Light",
+            "dark": "Dark",
+            "system": "Auto"
+        },
+        "language": "Language",
+        "logout": "Log out"
+    },
+    "time": {
+        "now": "now",
+        "m_one": "{{count}}m",
+        "m_other": "{{count}}m",
+        "h_one": "{{count}}h",
+        "h_other": "{{count}}h",
+        "d_one": "{{count}}d",
+        "d_other": "{{count}}d"
+    },
+    "errors": {
+        "generic": "Something went wrong. Please try again.",
+        "network": "Can't reach the server. Check your connection and try again.",
+        "timeout": "The server took too long to respond. Please try again.",
+        "server": "The server is having trouble. Please try again later.",
+        "tooMany": "You're going too fast. Wait a moment and try again."
+    },
+    "validation": {
+        "required": "This field is required",
+        "email": "Enter a valid email address",
+        "passwordMin": "Password must be at least 8 characters",
+        "passwordMismatch": "Passwords don't match",
+        "usernameMin": "Display name must be at least 3 characters",
+        "usernameMax": "Display name can be at most 30 characters",
+        "usernameChars": "Use only letters, numbers, periods and underscores"
+    },
+    "auth": {
+        "fields": {
+            "displayName": "Display name",
+            "email": "Email",
+            "password": "Password",
+            "passwordConfirmation": "Confirm password",
+            "newPassword": "New password",
+            "login": "Email or username"
+        },
+        "showPassword": "Show password",
+        "hidePassword": "Hide password",
+        "invalidLink": "This link has expired or is invalid.",
+        "goToLogin": "Go to log in",
+        "backToLogin": "Back to log in",
+        "register": {
+            "title": "Create an account",
+            "submit": "Sign up",
+            "success": "We sent a verification link to your email. Please check your inbox to verify your account.",
+            "haveAccount": "Already have an account?",
+            "usernameTaken": "This display name is already taken",
+            "emailTaken": "This email is already registered",
+            "usernameOk": "Display name is available",
+            "emailOk": "Email is available"
+        },
+        "verify": {
+            "title": "Verify email",
+            "loading": "Verifying..."
+        },
+        "login": {
+            "title": "Log in",
+            "submit": "Log in",
+            "forgot": "Forgot password?",
+            "noAccount": "Don't have an account?",
+            "verified": "Your account has been verified. Please log in.",
+            "resetSuccess": "Your new password is set. Please log in.",
+            "sessionExpired": "Your session has expired. Please log in again."
+        },
+        "forgot": {
+            "title": "Forgot password",
+            "description": "Enter your email to receive a password reset link.",
+            "submit": "Send link",
+            "sent": "A password reset link has been sent to your email."
+        },
+        "reset": {
+            "title": "Create a new password",
+            "submit": "Reset password",
+            "requestNew": "Request a new link"
+        }
+    },
+    "loginPanel": {
+        "title": "Log in to see more",
+        "description": "See what people are talking about, join the conversation and share your thoughts."
+    },
+    "feed": {
+        "tabsLabel": "Choose a feed",
+        "forYou": "For you",
+        "following": "Following",
+        "ghost": "Ghost posts",
+        "ghostBadge": "Ghost",
+        "ghostHint": "Ghost posts disappear after 24 hours.",
+        "loadFailed": "Couldn't load the feed",
+        "end": "You're all caught up",
+        "empty": {
+            "for_you": "No posts yet.",
+            "following": "Posts from people you follow will show up here.",
+            "ghost": "No ghost posts yet."
+        }
+    },
+    "post": {
+        "thread": "Thread",
+        "verified": "Verified account",
+        "like": "Like",
+        "unlike": "Unlike",
+        "comment": "Comment",
+        "repostMenu": "Repost",
+        "repost": "Repost",
+        "undoRepost": "Remove repost",
+        "quote": "Quote",
+        "share": "Share",
+        "copyLink": "Copy link",
+        "copyAsImage": "Copy as image",
+        "embedCode": "Get embed code",
+        "more": "More",
+        "save": "Save",
+        "unsave": "Unsave",
+        "notInterested": "Not interested",
+        "mute": "Mute",
+        "restrict": "Restrict",
+        "block": "Block",
+        "report": "Report",
+        "edit": "Edit",
+        "delete": "Delete",
+        "followUser": "Follow {{username}}",
+        "unfollowUser": "Unfollow {{username}}",
+        "quotedUnavailable": "This post is unavailable.",
+        "viewParent": "View the post this replies to",
+        "notFound": "This post doesn't exist or was deleted.",
+        "loadFailed": "Couldn't load this post."
+    },
+    "replies": {
+        "empty": "No replies yet.",
+        "loading": "Loading replies...",
+        "retry": "Couldn't load. Tap to try again",
+        "show_one": "Show {{count}} reply",
+        "show_other": "Show {{count}} replies",
+        "showMore": "Show more replies"
+    },
+    "composer": {
+        "whatsNew": "What's new?",
+        "post": "Post",
+        "replyTitle": "Reply",
+        "quoteTitle": "Quote",
+        "createTitle": "New thread",
+        "editTitle": "Edit",
+        "replyPlaceholder": "Reply to {{username}}...",
+        "quotePlaceholder": "Quote this post...",
+        "createPlaceholder": "What's new?",
+        "addTopic": "Add a topic",
+        "topicPlaceholder": "Topic name",
+        "addToThread": "Add to thread",
+        "replyOptions": "Reply options",
+        "whoCanReply": "Who can reply",
+        "permission": {
+            "everyone": "Anyone",
+            "followers": "Your followers",
+            "following": "Profiles you follow",
+            "mentioned": "Mentioned only"
+        },
+        "media": "Attach photo or video",
+        "gif": "Add GIF",
+        "emoji": "Choose emoji",
+        "poll": "Create poll",
+        "location": "Add location",
+        "removeMedia": "Remove file",
+        "comingSoon": "This feature is coming soon",
+        "tooManyFiles": "You can attach up to {{max}} files"
+    },
+    "embed": {
+        "title": "Embed post",
+        "description": "Copy the code below to show this post on your website.",
+        "preview": "Embedded post preview",
+        "code": "Embed code",
+        "viewOnThreads": "View on Threads"
+    },
+    "copyImage": {
+        "title": "Copy as image",
+        "description": "Preview the post as an image and download it",
+        "background": "Background",
+        "light": "Light",
+        "dark": "Dark",
+        "download": "Download image"
+    },
+    "report": {
+        "title": "Report",
+        "description": "Why are you reporting this post?",
+        "reason": "Reason",
+        "details": "Add details (optional)",
+        "submit": "Submit report",
+        "reasons": {
+            "spam": "Spam",
+            "harassment": "Bullying or harassment",
+            "hate_speech": "Hate speech",
+            "violence": "Violence or dangerous content",
+            "nudity": "Nudity or sexual content",
+            "false_information": "False information",
+            "scam": "Scam or fraud",
+            "other": "Something else"
+        }
+    },
+    "confirm": {
+        "blockTitle": "Block {{username}}?",
+        "blockDescription": "They won't be able to message you or find your profile or posts. They won't be notified that you blocked them.",
+        "deleteTitle": "Delete post?",
+        "deleteDescription": "If you delete this post, you won't be able to restore it."
+    },
+    "toast": {
+        "linkCopied": "Link copied",
+        "embedCopied": "Embed code copied",
+        "likeFailed": "Couldn't like this post",
+        "repostFailed": "Couldn't repost",
+        "reposted": "Reposted",
+        "unreposted": "Repost removed",
+        "saveFailed": "Couldn't save this post",
+        "saved": "Saved to your collection",
+        "unsaved": "Removed from saved",
+        "followed": "Following {{username}}",
+        "unfollowed": "Unfollowed {{username}}",
+        "followFailed": "Couldn't complete that",
+        "posted": "Posted",
+        "replied": "Reply posted",
+        "quoted": "Quote posted",
+        "updated": "Changes saved",
+        "deleted": "Post deleted",
+        "deleteFailed": "Couldn't delete this post",
+        "hidden": "Post hidden. You'll see fewer posts like this.",
+        "muted": "Muted {{username}}",
+        "restricted": "Restricted {{username}}",
+        "blocked": "Blocked {{username}}",
+        "reported": "Thanks for reporting",
+        "actionFailed": "Couldn't complete that",
+        "imageDownloaded": "Image downloaded",
+        "imageFailed": "Couldn't create the image. Please try again."
+    },
+    "search": {
+        "placeholder": "Search",
+        "hint": "Type at least 2 characters to search people and topics.",
+        "results": "Results",
+        "suggestions": "Suggested for you",
+        "noResults": "No results for \"{{query}}\"",
+        "noSuggestions": "No suggestions yet.",
+        "follow": "Follow",
+        "following": "Following",
+        "followers_one": "{{count}} follower",
+        "followers_other": "{{count}} followers",
+        "topicPosts_one": "{{count}} post",
+        "topicPosts_other": "{{count}} posts"
+    },
+    "activity": {
+        "suggested": "Suggested for you",
+        "empty": "No activity yet."
+    },
+    "profile": {
+        "reposts": "Reposts",
+        "noReposts": "You haven't reposted anything yet.",
+        "private": "Private account"
+    },
+    "notFound": {
+        "title": "Page not found",
+        "description": "The link may be broken, or the page may have been removed."
+    }
+}

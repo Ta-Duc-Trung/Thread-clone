@@ -1,0 +1,280 @@
+{
+    "common": {
+        "cancel": "Hủy",
+        "close": "Đóng",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép",
+        "retry": "Thử lại",
+        "back": "Quay lại",
+        "clear": "Xóa",
+        "save": "Lưu"
+    },
+    "nav": {
+        "main": "Điều hướng chính",
+        "home": "Trang chủ",
+        "search": "Tìm kiếm",
+        "create": "Tạo thread mới",
+        "activity": "Hoạt động",
+        "profile": "Trang cá nhân",
+        "settings": "Cài đặt"
+    },
+    "settings": {
+        "appearance": "Giao diện",
+        "theme": {
+            "light": "Sáng",
+            "dark": "Tối",
+            "system": "Tự động"
+        },
+        "language": "Ngôn ngữ",
+        "logout": "Đăng xuất"
+    },
+    "time": {
+        "now": "Vừa xong",
+        "m_other": "{{count}} phút",
+        "h_other": "{{count}} giờ",
+        "d_other": "{{count}} ngày"
+    },
+    "errors": {
+        "generic": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+        "network": "Không kết nối được máy chủ. Hãy kiểm tra mạng rồi thử lại.",
+        "timeout": "Máy chủ phản hồi quá lâu. Vui lòng thử lại.",
+        "server": "Máy chủ đang gặp sự cố. Vui lòng thử lại sau.",
+        "tooMany": "Bạn thao tác quá nhanh. Đợi một chút rồi thử lại."
+    },
+    "validation": {
+        "required": "Vui lòng nhập thông tin này",
+        "email": "Email không đúng định dạng",
+        "passwordMin": "Mật khẩu phải có ít nhất 8 ký tự",
+        "passwordMismatch": "Mật khẩu xác nhận không khớp",
+        "usernameMin": "Tên hiển thị phải có ít nhất 3 ký tự",
+        "usernameMax": "Tên hiển thị tối đa 30 ký tự",
+        "usernameChars": "Chỉ dùng chữ cái không dấu, số, dấu chấm và dấu gạch dưới"
+    },
+    "auth": {
+        "fields": {
+            "displayName": "Tên hiển thị",
+            "email": "Email",
+            "password": "Mật khẩu",
+            "passwordConfirmation": "Xác nhận mật khẩu",
+            "newPassword": "Mật khẩu mới",
+            "login": "Email hoặc tên người dùng"
+        },
+        "showPassword": "Hiện mật khẩu",
+        "hidePassword": "Ẩn mật khẩu",
+        "invalidLink": "Liên kết đã hết hạn hoặc không hợp lệ.",
+        "goToLogin": "Đi tới trang đăng nhập",
+        "backToLogin": "Quay lại đăng nhập",
+        "register": {
+            "title": "Đăng ký tài khoản",
+            "submit": "Đăng ký",
+            "success": "Chúng tôi đã gửi một liên kết xác thực tới email của bạn. Vui lòng kiểm tra email để xác thực tài khoản.",
+            "haveAccount": "Đã có tài khoản?",
+            "usernameTaken": "Tên hiển thị này đã có người dùng",
+            "emailTaken": "Email này đã được đăng ký",
+            "usernameOk": "Tên hiển thị dùng được",
+            "emailOk": "Email dùng được"
+        },
+        "verify": {
+            "title": "Xác minh email",
+            "loading": "Đang xác minh..."
+        },
+        "login": {
+            "title": "Đăng nhập",
+            "submit": "Đăng nhập",
+            "forgot": "Quên mật khẩu?",
+            "noAccount": "Bạn chưa có tài khoản?",
+            "verified": "Đã xác minh tài khoản thành công. Vui lòng đăng nhập.",
+            "resetSuccess": "Tạo mật khẩu mới thành công, vui lòng đăng nhập",
+            "sessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại."
+        },
+        "forgot": {
+            "title": "Quên mật khẩu",
+            "description": "Nhập email của bạn để nhận liên kết đặt lại mật khẩu.",
+            "submit": "Gửi liên kết",
+            "sent": "Liên kết đặt lại mật khẩu đã được gửi tới email của bạn."
+        },
+        "reset": {
+            "title": "Tạo mật khẩu mới",
+            "submit": "Đặt lại mật khẩu",
+            "requestNew": "Yêu cầu liên kết mới"
+        }
+    },
+    "loginPanel": {
+        "title": "Đăng nhập để xem thêm",
+        "description": "Xem mọi người đang nói gì, tham gia trò chuyện và chia sẻ suy nghĩ của bạn."
+    },
+    "feed": {
+        "tabsLabel": "Chọn bảng feed",
+        "forYou": "Dành cho bạn",
+        "following": "Đang theo dõi",
+        "ghost": "Bài viết ẩn",
+        "ghostBadge": "Ẩn",
+        "ghostHint": "Bài viết ẩn sẽ tự biến mất sau 24 giờ.",
+        "loadFailed": "Không tải được bảng feed",
+        "end": "Bạn đã xem hết bài viết",
+        "empty": {
+            "for_you": "Chưa có bài viết nào.",
+            "following": "Bài viết của những người bạn theo dõi sẽ hiện ở đây.",
+            "ghost": "Chưa có bài viết ẩn nào."
+        }
+    },
+    "post": {
+        "thread": "Thread",
+        "verified": "Tài khoản đã xác minh",
+        "like": "Thích",
+        "unlike": "Bỏ thích",
+        "comment": "Bình luận",
+        "repostMenu": "Đăng lại",
+        "repost": "Đăng lại",
+        "undoRepost": "Gỡ bài đăng lại",
+        "quote": "Trích dẫn",
+        "share": "Chia sẻ",
+        "copyLink": "Sao chép liên kết",
+        "copyAsImage": "Sao chép dưới dạng ảnh",
+        "embedCode": "Lấy mã nhúng",
+        "more": "Xem thêm",
+        "save": "Lưu",
+        "unsave": "Bỏ lưu",
+        "notInterested": "Không quan tâm",
+        "mute": "Tắt tiếng",
+        "restrict": "Hạn chế",
+        "block": "Chặn",
+        "report": "Báo cáo",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "followUser": "Theo dõi {{username}}",
+        "unfollowUser": "Bỏ theo dõi {{username}}",
+        "quotedUnavailable": "Bài viết này không còn khả dụng.",
+        "viewParent": "Xem bài viết được trả lời",
+        "notFound": "Bài viết không tồn tại hoặc đã bị xóa.",
+        "loadFailed": "Không tải được bài viết."
+    },
+    "replies": {
+        "empty": "Chưa có câu trả lời nào.",
+        "loading": "Đang tải câu trả lời...",
+        "retry": "Không tải được. Bấm để thử lại",
+        "show_other": "Hiển thị {{count}} câu trả lời",
+        "showMore": "Hiển thị thêm câu trả lời"
+    },
+    "composer": {
+        "whatsNew": "Có gì mới?",
+        "post": "Đăng",
+        "replyTitle": "Trả lời",
+        "quoteTitle": "Trích dẫn",
+        "createTitle": "Thread mới",
+        "editTitle": "Chỉnh sửa",
+        "replyPlaceholder": "Trả lời {{username}}...",
+        "quotePlaceholder": "Viết trích dẫn cho bài này...",
+        "createPlaceholder": "Có gì mới?",
+        "addTopic": "Thêm chủ đề",
+        "topicPlaceholder": "Tên chủ đề",
+        "addToThread": "Thêm vào thread",
+        "replyOptions": "Tùy chọn trả lời",
+        "whoCanReply": "Ai có thể trả lời",
+        "permission": {
+            "everyone": "Mọi người",
+            "followers": "Người theo dõi bạn",
+            "following": "Người bạn theo dõi",
+            "mentioned": "Chỉ người được nhắc đến"
+        },
+        "media": "Đính kèm ảnh hoặc video",
+        "gif": "Thêm GIF",
+        "emoji": "Chọn emoji",
+        "poll": "Tạo khảo sát",
+        "location": "Thêm vị trí",
+        "removeMedia": "Bỏ tệp này",
+        "comingSoon": "Tính năng này sẽ sớm ra mắt",
+        "tooManyFiles": "Chỉ đính kèm tối đa {{max}} tệp"
+    },
+    "embed": {
+        "title": "Nhúng bài viết",
+        "description": "Sao chép đoạn mã dưới đây để hiển thị bài viết trên website của bạn.",
+        "preview": "Xem trước bài viết nhúng",
+        "code": "Mã nhúng",
+        "viewOnThreads": "Xem trên Threads"
+    },
+    "copyImage": {
+        "title": "Sao chép dưới dạng ảnh",
+        "description": "Xem trước ảnh của bài viết và tải về",
+        "background": "Màu nền",
+        "light": "Sáng",
+        "dark": "Tối",
+        "download": "Tải ảnh"
+    },
+    "report": {
+        "title": "Báo cáo",
+        "description": "Tại sao bạn báo cáo bài viết này?",
+        "reason": "Lý do báo cáo",
+        "details": "Mô tả thêm (không bắt buộc)",
+        "submit": "Gửi báo cáo",
+        "reasons": {
+            "spam": "Spam",
+            "harassment": "Bắt nạt hoặc quấy rối",
+            "hate_speech": "Ngôn từ gây thù ghét",
+            "violence": "Bạo lực hoặc nguy hiểm",
+            "nudity": "Ảnh khỏa thân hoặc nội dung tình dục",
+            "false_information": "Thông tin sai sự thật",
+            "scam": "Lừa đảo hoặc gian lận",
+            "other": "Lý do khác"
+        }
+    },
+    "confirm": {
+        "blockTitle": "Chặn {{username}}?",
+        "blockDescription": "Họ sẽ không thể nhắn tin hay tìm thấy trang cá nhân, bài viết của bạn. Họ sẽ không biết bạn đã chặn họ.",
+        "deleteTitle": "Xóa bài viết?",
+        "deleteDescription": "Nếu xóa bài viết này, bạn sẽ không thể khôi phục được nữa."
+    },
+    "toast": {
+        "linkCopied": "Đã sao chép liên kết",
+        "embedCopied": "Đã sao chép mã nhúng",
+        "likeFailed": "Không thích được bài viết",
+        "repostFailed": "Không đăng lại được",
+        "reposted": "Đã đăng lại",
+        "unreposted": "Đã gỡ bài đăng lại",
+        "saveFailed": "Không lưu được bài viết",
+        "saved": "Đã lưu vào bộ sưu tập",
+        "unsaved": "Đã bỏ lưu",
+        "followed": "Đã theo dõi {{username}}",
+        "unfollowed": "Đã bỏ theo dõi {{username}}",
+        "followFailed": "Không thực hiện được",
+        "posted": "Đã đăng",
+        "replied": "Đã đăng câu trả lời",
+        "quoted": "Đã đăng bài trích dẫn",
+        "updated": "Đã lưu thay đổi",
+        "deleted": "Đã xóa bài viết",
+        "deleteFailed": "Không xóa được bài viết",
+        "hidden": "Đã ẩn bài viết. Bạn sẽ thấy ít bài như thế này hơn.",
+        "muted": "Đã tắt tiếng {{username}}",
+        "restricted": "Đã hạn chế {{username}}",
+        "blocked": "Đã chặn {{username}}",
+        "reported": "Cảm ơn bạn đã báo cáo",
+        "actionFailed": "Không thực hiện được",
+        "imageDownloaded": "Đã tải ảnh về máy",
+        "imageFailed": "Không tạo được ảnh. Vui lòng thử lại."
+    },
+    "search": {
+        "placeholder": "Tìm kiếm",
+        "hint": "Nhập ít nhất 2 ký tự để tìm người dùng và chủ đề.",
+        "results": "Kết quả",
+        "suggestions": "Gợi ý theo dõi",
+        "noResults": "Không tìm thấy kết quả cho \"{{query}}\"",
+        "noSuggestions": "Chưa có gợi ý nào.",
+        "follow": "Theo dõi",
+        "following": "Đang theo dõi",
+        "followers_other": "{{count}} người theo dõi",
+        "topicPosts_other": "{{count}} bài viết"
+    },
+    "activity": {
+        "suggested": "Gợi ý theo dõi",
+        "empty": "Chưa có hoạt động nào."
+    },
+    "profile": {
+        "reposts": "Bài đăng lại",
+        "noReposts": "Bạn chưa đăng lại bài viết nào.",
+        "private": "Tài khoản riêng tư"
+    },
+    "notFound": {
+        "title": "Không tìm thấy trang",
+        "description": "Liên kết có thể bị hỏng hoặc trang đã bị gỡ."
+    }
+}
